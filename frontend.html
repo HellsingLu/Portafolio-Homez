@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f5f7;
+            color: #333;
+        }
+
+        header {
+            background-color: #111;
+            color: #fff;
+            padding: 20px 40px;
+            text-align: left;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            width: 211px;
+            height: 116%;
+            overflow: auto;
+            position: absolute;
+        }
+
+        main {
+            margin-left: 250px;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h1 {
+            color: rgb(181, 181, 181);
+        }
+
+        h2 {
+            color: rgb(120, 120, 120);
+            margin-left: 1%;
+        }
+
+        p {
+            line-height: 1.6;
+            text-align: left;
+            margin-right: 5%;
+            margin-left: 2%;
+            color: #666;
+        }
+
+        li {
+            line-height: 1.6;
+            color: #666;
+        }
+
+
+        a {
+            color: rgb(181, 181, 181);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(120, 120, 120);
+            text-decoration: underline;
+        }
+
+        button {
+            background-color: #0a58ca;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #09448d;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>El Frontend y sus recursos</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#resource">¿Qué es un recurso frontend?</a></li> <br>
+            <li><a href="#technologies">Principales tecnologías</a></li> <br>
+            <li><a href="#responsivity">Responsividad</a></li> <br>
+            <li><a href="#htmlcssjs">HTML, CSS y JavaScript</a></li> <br>
+            <li><a href="#accessibility">Accesibilidad</a></li> <br>
+            <li><a href="#frameworks">Frameworks frontend</a></li> <br>
+            <li><a href="#cmsframeworks">CMS vs Frameworks</a></li> <br>
+        </ul>
+    </nav>
+    <main>
+        <p>En esta pagina daremos a conocer información sobre el Frontend, enfocadonos en qué es, como funciona,
+            herramientas utilizadas para el, conceptos de responsividad, diferencias entre Html, Css y Javascript,
+            importancia de la accesibilidad del diseño, frameworks y diferencias entre Cms y frameworks.</p>
+
+    <h2 id="resource">¿Qué es un recurso frontend y cuál es su función en el desarrollo web?</h2>
+    <p>Los recursos frontend son todos aquellos elementos y tecnologías que intervienen en la parte del cliente de una
+        página web, es decir, todo lo que el usuario puede ver y con lo que puede interactuar directamente en el
+        navegador. Esto incluye el diseño visual (colores, fuentes, layout), la interactividad (botones, menús
+        desplegables, formularios) y la adaptabilidad a diferentes dispositivos. Los principales lenguajes utilizados
+        son HTML, CSS, y JavaScript.</p>
+
+    <h2 id="technologies">Principales tecnologías o herramientas utilizadas en el desarrollo frontend:</h2>
+    <p>HTML: Estructura el contenido y es fundamental para crear la base de cualquier página web.
+        CSS: Aporta estilos y diseños, permitiendo una presentación visual atractiva.
+        JavaScript: Añade interactividad, haciendo que las páginas web sean dinámicas y reactivas.</p>
+
+    <p>Estos lenguajes son esenciales porque permiten crear experiencias de usuario ricas y accesibles, además de
+        optimizar el sitio para su correcta visualización en diferentes dispositivos y navegadores</p>
+
+    <h2 id="responsivity">Concepto de responsividad en el diseño web.</h2>
+    <p>La responsividad se refiere a la capacidad de una página web para adaptarse automáticamente a la pantalla del
+        dispositivo desde el cual se está accediendo, mejorando la experiencia del usuario. Dos técnicas clave para
+        lograr un diseño responsivo incluyen el uso de media queries en CSS para aplicar estilos según el tamaño del
+        dispositivo y el diseño flexible de grillas que ajusta el layout de manera dinámica.</p>
+
+    <h2 id="htmlcssjs">Diferencia entre HTML, CSS y JavaScript.</h2>
+    <p>HTML es el esqueleto de la página, define la estructura y el contenido.
+        CSS es la capa de presentación, controla el diseño y el estilo visual.
+        JavaScript es el comportamiento, permite interacciones complejas y dinámicas en la página.
+        Cada uno juega un papel fundamental en la construcción de sitios web interactivos y visualmente atractivos,
+        trabajando juntos para crear una experiencia de usuario completa.</p>
+
+    <h2 id="accessibility">Importancia de la accesibilidad en el diseño frontend.</h2>
+    <p>La accesibilidad es crucial para garantizar que todos los usuarios, incluidos aquellos con discapacidades, puedan
+        usar y navegar por sitios web de manera efectiva. Algunas prácticas para mejorar la accesibilidad incluyen el
+        uso adecuado de etiquetas semánticas en HTML para estructurar el contenido y asegurar que los elementos de
+        control sean accesibles mediante teclado. También es importante proporcionar textos alternativos para imágenes y
+        asegurar un contraste adecuado de colores.</p>
+
+    <h2 id="frameworks">Concepto de frameworks frontend y ejemplos.</h2>
+    <p>Los frameworks frontend son conjuntos de herramientas y librerías que facilitan el desarrollo de aplicaciones web
+        ofreciendo estructuras de código reutilizables, componentes predefinidos y mejores prácticas. Ejemplos populares
+        incluyen React y Angular. Estos frameworks ayudan a los desarrolladores a construir aplicaciones robustas y
+        escalables de manera más eficiente, evitando el código repetitivo y promoviendo prácticas de desarrollo
+        consistente.</p>
+
+    <h2 id="cmsframeworks">Diferencia entre CMS y frameworks en el desarrollo frontend.</h2>
+    <p>Un CMS (Sistema de Gestión de Contenidos) es una plataforma que permite crear, gestionar y modificar el contenido
+        de un sitio web sin necesidad de escribir código directamente. Ejemplos incluyen WordPress y Joomla. Por otro
+        lado, un framework proporciona una estructura y herramientas para desarrollar aplicaciones web desde cero,
+        permitiendo un mayor control sobre el comportamiento y la presentación del sitio. Los frameworks, como React o
+        Angular, requieren conocimientos de programación, pero ofrecen flexibilidad para crear experiencias de usuario
+        personalizadas.</p>
+    </main>
+</body>
+</html>
